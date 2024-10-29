@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em; /*1rem = 1.2em*/
+}
+
+body{
+    background-color: rgb(231, 231, 184);
+}
+
+header{
+    background-color: rgb(46, 26, 7);
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(46, 26, 7);
+    padding: 10px 50px;
+}
+
+.about {
+    background-color: burlywood;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+.articles{
+    padding: 20px 50px;
+} 
+
+.content {
+    padding: 20px 50px;
+}
