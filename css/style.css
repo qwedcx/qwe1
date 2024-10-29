@@ -78,3 +78,20 @@ a:active{
   h3{
     text-align: center;
   }
+  table {      
+    border-collapse: collapse;
+    border: 5px solid gray;
+}
+  
+td, th {
+    border: 2px solid black;
+}
+tr:nth-child(even){
+    background-color:#8642da;
+    }
+input:invalid {
+    background: rgba(128,0,0,0.2); 
+   }
+input:valid {
+    background: rgba(0,128,0,0.2); 
+}
